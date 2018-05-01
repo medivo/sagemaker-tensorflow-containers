@@ -12,7 +12,7 @@ def read(fname):
 
 setup(
     name='sagemaker_tensorflow_container',
-    version='1.0.1',
+    version='1.0.0-prognos0.2',
     description='Open source library for creating TensorFlow containers to run on Amazon SageMaker.',
 
     packages=find_packages(where='src', exclude=('test',)),
